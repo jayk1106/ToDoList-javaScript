@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="h1"><h1>ToDo List</h1></div>
+        <div class="addList">
+            <form id="form">
+                <fieldset>
+                    <legend>Insert Your Task</legend>
+                    <input type="text" id="getList" placeholder="Enter Tasks..."><input type="submit" value="ADD" id="addbtn"> 
+                </fieldset>    
+            </form>
+        </div>
+        <fieldset>
+            <legend>Your Tasks</legend>
+        <div class="soList" id="showList">
+            <table id="table" cellspacing='2px'>
+
+                <tr id='heading'>
+                    <th>Index</th>
+                    <th>Tasks</th>
+                    <th>Delete</th>
+                </tr>
+            </table>
+        </div>
+    </fieldset>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
